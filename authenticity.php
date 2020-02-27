@@ -3,7 +3,7 @@
 class Authenticity
 {
 
-    public function get (int $inn)
+    public function get (int $inn) : array
     {
         $postData = http_build_query(
             [
